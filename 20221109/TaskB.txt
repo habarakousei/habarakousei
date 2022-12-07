@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+for(int b = 0; b < 100; b++){
+  System.out.println(data[c]);
+}
+
+for(int n = 0; n < data.length -1; n++){
+  for(int j = data.length -1; j > n; j--){
+    if(data[j - 1] > data[j]){
+       int box = data[j];
+       data[j] = data[j - 1];
+       data[j - 1] = box;
+     }
+   }
+}
+for(int x = 0; x < data.length; x++){
+   System.out.println(data[x]);
+}
